@@ -11,7 +11,7 @@ function App() {
         <h4 className='text-left'>Full Stack Developer</h4>
       </heading>
       <div className='grid grid-cols-1 md:grid-cols-3 bg-gray-200 text-black gap-2'>
-        <side className="col-start-1 col-end-2 text-sm">
+        <side className="col-start-1 col-end-2 text-sm  bg-gray-200 text-black">
           <h2>DETAILS</h2>
           <info className='text-left'>
             📩 chaudharyanil543@gmail.com <br></br>
@@ -38,7 +38,7 @@ function App() {
 
         </side>
 
-        <main className='md:col-span-2 p-2 '>
+        <main className='md:col-span-2 p-2   bg-gray-200 text-black'>
           <h2>SUMMARY</h2>
           <p className='text-left text-xs'>
             Full Stack developer with proficiency in Next.js and React, specializing in building efficient,
