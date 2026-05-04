@@ -13,10 +13,12 @@ function App() {
       <div className='grid grid-cols-1 md:grid-cols-3 bg-gray-200 text-black gap-2'>
         <side className="col-start-1 col-end-2 text-sm  bg-gray-200 text-black">
           <h2>DETAILS</h2>
-          <info className='text-left'>
+          <ul className='text-left'>
             📩 chaudharyanil543@gmail.com <br></br>
-            📞 + 224 249 2282
-          </info>
+            📞 +1 224 249 2282<br></br>
+            📍 1016 W Balmoral Ave Apt 401W
+              Chicago, IL, 60640
+          </ul>
           <h2>SKILLS</h2>
           <ul className='text-left text-xs'>
             <li>Next.js(App Router, Pages Router)</li>
